@@ -22,8 +22,8 @@
     <div class = "container">
         <div class = "row">
             <div class = "col-md-3">
-                <div class = "card card-body">
-                    <img src = "{%static 'images/profile.png'%}">
+                <div class = "card card-body" id = "profile-wrapper">
+                    <img id = "profile-pic" src = "{%static 'images/profile.png'%}">
                     <hr>
                     <h4>Walter Nam</h4>
                     <p>CS Student at CWRU, Fullstack Developer and ML enthusiast.</p>
@@ -31,7 +31,32 @@
             </div>
 
             <div class = "col-md-9 ">
-                <div class = "card card-body"></div>
+                <div class = "card card-body">
+                    <h4>Personal Background</h4>
+                <hr>
+                <p>
+                    I’m currently pursuing a Bachelor’s in Computer Science at CWRU with my classes focusing mostly 
+                    on software engineering. I started with Java as my first language. I started out building simple games 
+                    with Swing and AWT then moved onto a little bit of Android development with Kotlin in Intellij with my programming class. 
+                    When I entered college I switched to Computer Science my Sophomore year after taking a data structures class and then that
+                    summer I created my github account and built a bunch of sideprojects with a friend and collaborated using git. 
+                </p>
+                
+                <p>
+                     Around this same time I was teaching myself new programming languages and frameworks, and adopted Python and R to familarize
+                    myself with statistics and AI concepts for my Machine Learning class. I also downloaded a Linux machine to get comfortable with Unix-like
+                    environments. In addition to my sideprojects on my github, I also worked on a social media hub and helped debug their login 
+                    feature using Firebase JS. Overall, alot of my experience has come from self-teaching new concepts alongside the coursework
+                    and working with others on adopting new frameworks and technologies.  
+                </p>
+
+                <ul class = "social-links">
+                    <li><img class="social" src="{% static 'images/github.png'%}"></li>
+                    <li><img class="social" src="{% static 'images/hackerrank.png'%}"></li>
+                    <li><img class="social" src="{% static 'images/linkedin.png'%}"></li>
+                </ul>
+
+                </div>
             </div>
         </div>
         <br>
